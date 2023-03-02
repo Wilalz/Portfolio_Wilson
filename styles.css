@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #201e1f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+hr{
+    margin: 0 auto;
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EBF216;
+}
+
+section{
+    margin: 50px auto;
+    padding: 10px 10px;
+    width: 70%;    
+}
+
+
+#sVideo{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 0px;
+}
+
+.button_nav{
+    background-color:#EBF216;
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 12px;
+    margin: 3px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EBF216;
+    color: #201e1f;
+}
+
+.button_nav:hover{
+    background-color: #201e1f
+    ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EBF216;
+    color: #EBF216;
+}
+
+.button_nav:active{
+    background-color: #201e1f;
+    border-width: 1px;
+    border-color: #EBF216;
+}
+
+
+a, p, span, legend, h2, li{
+    color: #FFFEFF;
+    padding: 10px;
+    font-weight: 100;
+    letter-spacing: 1pt;
+}
+
+h2{
+    font-weight: 900;
+}
+
+h1{
+    font-size: 5rem;
+    color:#FFFEFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin: 40px 40px 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h3{
+    font-size: 2rem;
+    color:#FFFEFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin: 30px 40px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style-type: "+";
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #201e1f;
+    color: #FFFEFF;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#logo_wil{
+    width:30px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+#logo_first{
+    width: 100px;
+}
+
+button{
+    background-color:#EBF216;
+    text-decoration: none;
+    padding: 3px;
+}
+
+article{
+    background-color: #201e1f;
+}
+
+iframe{
+    margin: 10px auto;
+    padding: 3px;
+    width: 534px;
+    height: 300px;
+}
+
+/* logos redes */
+#logo_linkedin{
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#logo_github{
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#logo_whatsapp{
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.d_contact{
+    display: block;
+}
+
+/* formulario */
+input[type=text], [type=email],select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+/* project cards */
+.project_card{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.img_proy{
+    width: 480px;
+}
+
+
+
+/* Estilos de color que me gustaron */
+
+color_logo_wil{
+    background: #201e1f;
+    background: #A6A2A2;
+    background: #FFFEFF;
+    background: #EBF216;
+    background: #0072bb;
+}
+
+
+
+surprise{
+    background: #040C1D;
+    background: #313143;
+    background: #697488;
+    background: #FAFFFF;
+    background: #e4ff16;
+}
+
+black_orange{
+    background: #fffcf2;
+    background: #ccc5b9;
+    background: #403d39;
+    background: #252422;
+    background: #eb5e28;
+}
+
+v_s_code{
+    /* color logo */
+    background: #3aa8f2;
+    background: #2e81b9;
+    /* color fondo */
+    background: #1e1e1e;
+    background: #252526;
+    background: #333333;
+    background: #cccccc;
+    background: #ffffff;
+    background: #141414;
+    /* color letras */
+    background: #3f8bb4;
+    background: #9cdcfe;
+    background: #ce9178;
+    background: #d4d4d4;
+    background: #c586c0;
+    background: #ffd710;
+    background: #b5ce9f;
+    /* color archivos */
+    background: #e44d26;
+    background: #42a5f5;
+    background: #ffca28;
+    background: #26a69a;
+    background: #ff5252;
+    background: #8bc34a;
+    background: #42a5f5;
+}
+
+colorsWow{
+    background: #7FFFD4;
+    background: #ff69b4;
+};
+
+palete1{
+    background: #FFD166;
+    background: #118AB2;
+    background: #073B4C;
+}
+palete2{
+    background: #8ecae6;
+    background: #219ebc;
+    background: #023047;
+    background: #ffb703;
+    background: #fb8500;
+}
+palete3{
+    background: #000814;
+    background: #001D3D;
+    background: #003566;
+    background: #FFC300;
+    background: #FFD60A;
+}
+
