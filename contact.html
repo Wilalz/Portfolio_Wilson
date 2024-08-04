@@ -6,55 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wilson Alzate</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="./resources/wilson_logo_msn_PNG.png">
+    <link rel="icon" href="./resources/wilson logo v2.0 svg.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 
 </head>
 <body>
+    <div id="top"></div>
     <nav>
-        <a class="button_nav" href="index.html">Inicio</a>
-        <a class="button_nav" href="portfolio.html">Portafolio</a>
-        <a class="button_nav" href="contact.html">Contáctame</a>
+        <a class="button_nav" href="index.html">Home</a>
+        <a class="button_nav" href="portfolio.html">Portfolio</a>
+        <a class="button_nav" href="contact.html">Contact</a>
     </nav>
     <hr>
 
     <section>
         <h1>Wilson</h1>
-        <h3>Alzate Pineda</h3>
+        <h2>Alzate Pineda</h2>
     </section>
     <section>
-        <a class="d_contact" href="tel:(57)3147146897">(57)314 714 6897</a>
-        <a class="d_contact" href="mailto:wilalzatep@gmail.com">wilalzatep@gmail.com</a>
-        <p class="d_contact">Medellín, Colombia</p>
-        <br>
         <div>
             <a href="https://www.linkedin.com/in/wilson-alzate-pineda" target="_blank" rel="noopener">
-                <img src="./resources/linkedin.png" alt="LinkedIn" id="logo_linkedin"></a>
+                <img src="./resources/linkedin.svg" alt="LinkedIn" class="logo logo_redes"></a>
             <a href="https://github.com/Wilalz" target="_blank" rel="noopener">
-                <img src="./resources/github.png" alt="GitHub" id="logo_github"></a>
-            <a href="https://api.whatsapp.com/send?phone=573147146897" target="_blank" rel="noopener">
-                <img src="./resources/whatsapp.png" alt="WhatsApp" id="logo_whatsapp">
-            </a>
+                <img src="./resources/github.svg" alt="GitHub" class="logo logo_redes"></a>
         </div>
+        <a class="d_contact" href="mailto:wilalzatep@gmail.com">wilalzatep@gmail.com</a>
+        <p class="d_contact">Medellín, Colombia</p>
     </section>
     <section>
         <!--Pendiente crear la conexion con el back-->
         <form action="#" method="POST">
             <fieldset>
-                <legend>Escríbeme</legend>
+                <legend>Contact</legend>
                 <input type="text" placeholder="Nombre" name="name"><br>
                 <input type="email" placeholder="E-mail" name="email"><br>
                 <input type="text" placeholder="Asunto" name="asunto"><br>
                 <textarea cols="30" rows="10"></textarea><br>
                 <input class="button_nav" type="submit" value="Enviar">
-                <input class="button_nav" type="reset" value="Borrar">
             </fieldset>
         </form>
     </section>
     
+    <div id="btn_top">
+        <a href="#top">
+            <img src="./resources/top-svgrepo-com.svg" alt="back to top button">
+        </a>
+    </div>
+
     <footer>
         <hr>
         <span>Wilson Alzate </span>
-        <img id="logo_wil" src="resources/wilson_logo_msn_PNG.pngg" alt="Logo Wilson Al">
+        <img id="logo_wil" src="./resources/wilson logo v2.0 svg.svg" alt="Logo Wilson Al">
     </footer>
 
 </body>
