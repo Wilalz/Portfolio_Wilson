@@ -13,53 +13,64 @@
 
 </head>
 <body>
-    <div id="top"></div>
-    <nav>
-        <a class="button_nav" href="index.html">Home</a>
-        <a class="button_nav" href="portfolio.html">Portfolio</a>
-        <a class="button_nav" href="contact.html">Contact</a>
-    </nav>
-    <hr>
-
-    <section>
-        <h1>Wilson</h1>
-        <h2>Alzate Pineda</h2>
-    </section>
-    <section>
-        <div>
-            <a href="https://www.linkedin.com/in/wilson-alzate-pineda" target="_blank" rel="noopener">
-                <img src="./resources/linkedin.svg" alt="LinkedIn" class="logo logo_redes"></a>
-            <a href="https://github.com/Wilalz" target="_blank" rel="noopener">
-                <img src="./resources/github.svg" alt="GitHub" class="logo logo_redes"></a>
-        </div>
-        <a class="d_contact" href="mailto:wilalzatep@gmail.com">wilalzatep@gmail.com</a>
-        <p class="d_contact">Medellín, Colombia</p>
-    </section>
-    <section>
-        <!--Pendiente crear la conexion con el back-->
-        <form action="#" method="POST">
-            <fieldset>
-                <legend>Contact</legend>
-                <input type="text" placeholder="Nombre" name="name"><br>
-                <input type="email" placeholder="E-mail" name="email"><br>
-                <input type="text" placeholder="Asunto" name="asunto"><br>
-                <textarea cols="30" rows="10"></textarea><br>
-                <input class="button_nav" type="submit" value="Enviar">
-            </fieldset>
-        </form>
-    </section>
-    
-    <div id="btn_top">
-        <a href="#top">
-            <img src="./resources/top-svgrepo-com.svg" alt="back to top button">
-        </a>
+    <div class="container">
+        <header>
+            <div id="top"></div>
+            <nav class="nav">
+                <div class="nav_buttons">
+                    <a class="nav_buttons_button" href="index.html">Home</a>
+                    <a class="nav_buttons_button" href="portfolio.html">Portfolio</a>
+                    <a class="nav_buttons_button" href="contact.html">Contact</a>
+                </div>
+                <div class="nav_buttons">
+                    <a class="network_link" href="https://www.linkedin.com/in/wilson-alzate-pineda" target="_blank" rel="noopener">
+                        <img src="./resources/linkedin.svg" alt="LinkedIn"></a>
+                    <a class="network_link" href="https://github.com/Wilalz" target="_blank" rel="noopener">
+                        <img src="./resources/github.svg" alt="GitHub"></a>
+                </div>
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <section>
+                <h1>Wilson</h1>
+                <h2>Alzate Pineda</h2>
+            </section>
+            <section>
+                <div class="network_links">
+                    <a class="network_link" href="https://www.linkedin.com/in/wilson-alzate-pineda" target="_blank" rel="noopener">
+                        <img id="big_link"src="./resources/linkedin.svg" alt="LinkedIn"></a>
+                    <a class="network_link" href="https://github.com/Wilalz" target="_blank" rel="noopener">
+                        <img id="big_link" src="./resources/github.svg" alt="GitHub"></a>
+                </div>
+                <a class="d_contact" href="mailto:wilalzatep@gmail.com">wilalzatep@gmail.com</a>
+                <p class="d_contact">Medellín, Colombia</p>
+            </section>
+            <section>
+                <!--Pendiente crear la conexion con el back-->
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend>Contact</legend>
+                        <input type="text" placeholder="Nombre" name="name"><br>
+                        <input type="email" placeholder="E-mail" name="email"><br>
+                        <input type="text" placeholder="Asunto" name="asunto"><br>
+                        <textarea cols="30" rows="10"></textarea><br>
+                        <input class="nav_buttons_button" type="submit" value="Enviar">
+                    </fieldset>
+                </form>
+            </section>
+            <div 
+            class="nav_buttons">
+                <a class="network_link" id="btn_top" href="#top">
+                    <img src="./resources/top-svgrepo-com.svg" alt="back to top button">
+                </a>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <span>Wilson Alzate </span>
+            <img id="logo_wil" src="./resources/wilson logo v2.0 svg.svg" alt="Logo Wilson Al">
+        </footer>
     </div>
-
-    <footer>
-        <hr>
-        <span>Wilson Alzate </span>
-        <img id="logo_wil" src="./resources/wilson logo v2.0 svg.svg" alt="Logo Wilson Al">
-    </footer>
-
 </body>
 </html>

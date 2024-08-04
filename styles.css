@@ -33,41 +33,58 @@ section{
     justify-content: center;
 }
 
-nav{
+.nav{
     display: flex;
-    justify-content: center;
-    margin: 10px 10px 0px;
+    justify-content: space-around;
+    margin: 10px 10px;
 }
 
-.button_nav{
+.nav_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_buttons_button{
     background-color:#EBF216;
-    float: center;
     text-align: center;
     text-decoration: none;
     padding: 7px 12px;
     margin: 3px;
     border-radius: 3px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #EBF216;
+    border: 1px solid #201e1f;
     color: #201e1f;
 }
 
-.button_nav:hover{
-    background-color: #201e1f
-    ;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #EBF216;
+.nav_buttons_button:hover{
+    background-color: #201e1f;
+    border: 1px solid #ebf216;
     color: #EBF216;
 }
 
-.button_nav:active{
-    background-color: #201e1f;
-    border-width: 1px;
-    border-color: #EBF216;
+.network_link{
+    margin: 0px 7px;
+    padding: 0px;
+    border: 1px solid #201e1f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.network_link img{
+    height: 40px;
+    filter: invert(73%) sepia(59%) saturate(631%) hue-rotate(14deg) brightness(117%) contrast(92%);
+}
+
+.network_link:hover{
+    border: 1px solid #EBF216;
+    background-color: #EBF216;
+}
+
+.network_link img:hover{
+    filter: invert(7%) sepia(11%) saturate(306%) hue-rotate(278deg) brightness(98%) contrast(89%)
+}
 
 a, p, span, legend, h2, li{
     color: #FFFEFF;
@@ -112,23 +129,23 @@ li{
 
 
 footer {
-    position: fixed;
+    /* position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
     background-color: #201e1f;
     color: #FFFEFF;
     text-align: center;
-    padding-bottom: 10px;
+    padding: 0px 0px 20px;
 }
 
 #logo_wil{
     width:30px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: -5px;
 }
 
-#logo_first{
+#logo_wil_first{
     width: 100px;
 }
 
@@ -154,30 +171,17 @@ iframe{
 }
 
 #btn_top{
-    margin: 0 auto;
-    padding: 1px;
-    margin-bottom: 60px;
-    display: flex;
-    justify-content: center;
-}
-
-#btn_top img{
-    height: 40px;
-    filter: invert(73%) sepia(59%) saturate(631%) hue-rotate(14deg) brightness(117%) contrast(92%);
-}
-
-#btn_top a:hover{
-    filter: invert(94%) sepia(52%) saturate(4177%) hue-rotate(348deg) brightness(109%) contrast(89%);
+    margin: 0px 0px 60px;
 }
 
 /* logos redes */
-.logo_redes{
+
+.network_links{
+    display: flex;
+}
+
+.network_links img{
     height: 60px;
-    margin: 5px;
-    border-radius: 5px;
-    /* white
-    filter: invert(100%) sepia(3%) saturate(1501%) hue-rotate(274deg) brightness(122%) contrast(100%);*/
-    filter: invert(73%) sepia(59%) saturate(631%) hue-rotate(14deg) brightness(117%) contrast(92%);
 }
 
 .d_contact{
@@ -204,7 +208,11 @@ input[type=text], [type=email],select, textarea {
     width: 480px;
 }
 
-
+.container{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
 
 /* Estilos de color que me gustaron */
 
