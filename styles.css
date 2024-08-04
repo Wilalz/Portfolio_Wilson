@@ -129,20 +129,26 @@ li{
 
 
 footer {
-    /* position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%; */
     background-color: #201e1f;
     color: #FFFEFF;
     text-align: center;
     padding: 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.footer_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
 
 #logo_wil{
     width:30px;
-    margin-top: 15px;
-    margin-bottom: -5px;
+    margin-left: 15px;
 }
 
 #logo_wil_first{
