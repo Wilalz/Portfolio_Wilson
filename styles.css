@@ -112,6 +112,8 @@ h2{
     margin: 30px 40px 30px;
     display: flex;
     justify-content: center;
+    text-align: center;
+    line-height: normal;
 }
 
 h3{
@@ -181,7 +183,6 @@ iframe{
 }
 
 /* logos redes */
-
 .network_links{
     display: flex;
 }
@@ -205,20 +206,71 @@ input[type=text], [type=email],select, textarea {
 
 
 /* project cards */
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
 .project_card{
     text-align: center;
-    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border: 1px solid #A6A2A2;
+    border-bottom: 4px solid #A6A2A2;
+    border-top: 4px solid #A6A2A2;
+    border-radius: 15px;
+    padding: 20px;
+    width: 360px;
+    min-width: 260px;
 }
 
-.img_proy{
-    width: 480px;
+.project_card:hover{
+    border-bottom: 4px solid #cccbcb;
+    border-top: 4px solid #cccbcb;
 }
 
+/* General */
 .container{
     min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
+.skills_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills_content{
+    border: 1px solid #A6A2A2;
+    border-bottom: 4px solid #A6A2A2;
+    border-top: 4px solid #A6A2A2;
+    border-radius: 15px;
+    padding: 20px;
+    width: 380px;
+    min-width: 260px;
+
+}
+
+.skills_content:hover{
+    border-bottom: 4px solid #cccbcb;
+    border-top: 4px solid #cccbcb;
+}
+
+
+
 
 /* Estilos de color que me gustaron */
 
