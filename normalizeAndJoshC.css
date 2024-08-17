@@ -396,13 +396,13 @@ body {
 */
 
 
-/* Make easier to manage the rem meassures -------------------- */
+/* Make easier to manage the rem measures -------------------- */
 /*
 html {
   font-size: 62,5%;
 }
 
-// Defina las demas etiquetas con relacion al html y medidas relativas rem, ej:
+// Defina las demás etiquetas con relación al html y medidas relativas rem, ej:
 h1{
   font-size: 1.2rem;  //equivalente a 12px
 */
